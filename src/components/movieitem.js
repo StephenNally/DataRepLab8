@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
+<Link to={"/edit/" + props.mymovie._id} className="btn btn-primary">Edit</Link>
 
 const MovieItem = (props)=> {
   useEffect(() => {
